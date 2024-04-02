@@ -28,7 +28,7 @@ const updateScoresInDOM = (data) => {
 
     const listItem = document.createElement("li");
     listItem.innerHTML = `<div class="listContainer ${key.category}">
-                     <img src='${key.icon}'> 
+                     <img alt = "Icon of ${key.category} svg" src='${key.icon}'> 
                      <span class="Cat" >${key.category}</span>  
                      <span class= "score">${key.score}  </span> / 
                      <span style="font-weight: 500; color: hsl(224, 30%, 27%);">100</span>
